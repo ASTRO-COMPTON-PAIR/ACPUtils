@@ -29,7 +29,7 @@ LINKERENV= cfitsio
 LIB_NAME = libACPUtils
 VER_FILE_NAME = version.h
 #the name of the directory where the conf file are copied (into $(datadir))
-CONF_DEST_DIR = ctautils
+CONF_DEST_DIR = acputils
 #the name of the icon for the installation
 ICON_NAME=
 
@@ -47,7 +47,7 @@ libdir=$(exec_prefix)/lib
 # The directory to install the info files in.
 infodir=$(exec_prefix)/info
 # The directory to install the include files in.
-includedir=$(exec_prefix)/include/ctautils
+includedir=$(exec_prefix)/include/acputils
 # The directory to install the icon
 icondir=$(HOME)/.local/share/applications/
 
