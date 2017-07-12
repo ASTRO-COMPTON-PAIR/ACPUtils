@@ -13,8 +13,8 @@
  *                                                                         *
  ***************************************************************************/
 
-#ifndef CTAUTILS_OUTPUTFILEFITS_H
-#define CTAUTILS_OUTPUTFILEFITS_H
+#ifndef ACPUTILS_OUTPUTFILEFITS_H
+#define ACPUTILS_OUTPUTFILEFITS_H
 
 #include <stdint.h>
 #include <fitsio.h>
@@ -22,7 +22,7 @@
 #include <stdexcept>
 #include "OutputFile.h"
 
-namespace CTAUtils {
+namespace ACPUtils {
 
 
 

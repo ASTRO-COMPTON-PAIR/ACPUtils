@@ -12,7 +12,7 @@
 #include <cstdio>
 #include <cstring>
 
-namespace CTAUtils {
+namespace ACPUtils {
 
 template <typename T>
 T** matrixCreate(size_t row, size_t col) {

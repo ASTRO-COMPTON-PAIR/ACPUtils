@@ -1,4 +1,11 @@
-BaseProject
+ACP Utils
 ===========
 
-Base project for C++
+INSTALLATION
+
+Set CFITSIO environment variable
+
+export LOCAL=<installation path>
+
+make
+make install

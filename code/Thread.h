@@ -25,7 +25,7 @@
 
 #include <pthread.h>
 
-namespace CTAUtils {
+namespace ACPUtils {
 
 class Thread
 {

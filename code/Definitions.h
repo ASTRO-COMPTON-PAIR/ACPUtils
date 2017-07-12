@@ -13,12 +13,12 @@
  *                                                                         *
  ***************************************************************************/
 
-#ifndef CTAUTILS_DEFINITION_H
-#define CTAUTILS_DEFINITION_H
+#ifndef ACPUTILS_DEFINITION_H
+#define ACPUTILS_DEFINITION_H
 
 #include <iostream>
 
-namespace CTAUtils
+namespace ACPUtils
 {
 
 #define DEBUG(msg) {std::cout << __FILE__ << ":" << __LINE__ << ":" << __func__ << ": " << msg << std::endl;}

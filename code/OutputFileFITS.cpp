@@ -20,7 +20,7 @@
 #include "Definitions.h"
 #include "OutputFileFITS.h"
 
-namespace CTAUtils {
+namespace ACPUtils {
 
 
 #define ERRMSGSIZ 81

@@ -15,13 +15,13 @@
  *                                                                         *
  ***************************************************************************/
 
-#ifndef CTAUTILS_FILE_H
-#define CTAUTILS_FILE_H
+#ifndef ACPUTILS_FILE_H
+#define ACPUTILS_FILE_H
 
 #include <string>
 #include <stdexcept>
 
-namespace CTAUtils {
+namespace ACPUtils {
 
 class IOException : public std::runtime_error {
 

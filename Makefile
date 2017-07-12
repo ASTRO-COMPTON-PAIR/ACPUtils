@@ -18,15 +18,15 @@
 #		* uninstall: add or remove the files and directories that should be uninstalled
 #############################################################################
 
-PROJECT= libCTAUtils
+PROJECT= libACPUtils
 SHELL = /bin/sh
 
 ####### 1) Project names and system
 
 SYSTEM= $(shell gcc -dumpmachine)
-#ice, ctarta, mpi, cfitsio
+#mpi, cfitsio
 LINKERENV= cfitsio
-LIB_NAME = libCTAUtils
+LIB_NAME = libACPUtils
 VER_FILE_NAME = version.h
 #the name of the directory where the conf file are copied (into $(datadir))
 CONF_DEST_DIR = ctautils

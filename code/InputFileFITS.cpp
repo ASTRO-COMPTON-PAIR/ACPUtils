@@ -17,7 +17,7 @@
 #include "InputFileFITS.h"
 #include <cstring>
 
-namespace CTAUtils {
+namespace ACPUtils {
 
 #define ERRMSGSIZ 81
 

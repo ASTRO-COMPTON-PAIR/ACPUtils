@@ -13,17 +13,17 @@
  *                                                                         *
  ***************************************************************************/
 
-#ifndef CTAUTILS_INPUTFILEFITS_H
-#define CTAUTILS_INPUTFILEFITS_H
+#ifndef ACPUTILS_INPUTFILEFITS_H
+#define ACPUTILS_INPUTFILEFITS_H
 
 #include <stdint.h>
 #include <fitsio.h>
 #include "InputFile.h"
 
-namespace CTAUtils {
+namespace ACPUtils {
 
 /// FITS file reader (cfitsio wrapping class).
-/// All methods except isOpened() throw CTAUtils::IOException on errors.
+/// All methods except isOpened() throw ACPUtils::IOException on errors.
 class InputFileFITS : public InputFile {
 
 	public:

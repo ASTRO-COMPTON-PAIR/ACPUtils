@@ -1,7 +1,7 @@
 #include <vector>
 #include <string>
 
-namespace CTAUtils {
+namespace ACPUtils {
 
 ///split a string in a vector of tokens using a char a sep
 ///\param tokens the output

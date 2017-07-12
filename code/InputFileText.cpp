@@ -19,7 +19,7 @@
 #include "Definitions.h"
 #include "InputFileText.h"
 
-namespace CTAUtils
+namespace ACPUtils
 {
 
 template<class T>

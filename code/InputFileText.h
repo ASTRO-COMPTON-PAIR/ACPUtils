@@ -21,7 +21,7 @@
 #include <vector>
 #include "InputFile.h"
 
-namespace CTAUtils {
+namespace ACPUtils {
 
 class InputFileText : public InputFile {
 

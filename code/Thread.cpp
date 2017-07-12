@@ -22,7 +22,7 @@
 
 #include "Thread.h"
 
-namespace CTAUtils {
+namespace ACPUtils {
 
 static void* runThread(void* arg)
 {
